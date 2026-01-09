@@ -50,6 +50,12 @@
       text-align: center;
       padding: 30px;
     }
+    .btn-group {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
   </style>
 </head>
 <body>
@@ -83,16 +89,15 @@
   <section class="presentation">
   <h2>Festival Presentation</h2>
     
-<a href="/files/SandFestivalENG.pdf" 
-   target="_blank" 
-   class="btn">
-   Open full PDF(ENG)
-</a>
-<a href="/files/SandFestivalCG.pdf" 
-   target="_blank" 
-   class="btn">
-   Open full PDF(CG)
-</a>
+<div class="btn-group">
+  <a href="/files/SandFestivalENG.pdf" target="_blank" class="btn">
+    Open full PDF (ENG)
+  </a>
+
+  <a href="/files/SandFestivalCG.pdf" target="_blank" class="btn">
+    Open full PDF (CG)
+  </a>
+</div>
 </section>
 <section>
   <h2>Gallery</h2>
