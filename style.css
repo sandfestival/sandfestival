@@ -1,3 +1,16 @@
+header {
+  min-height: 90vh;
+  padding: 120px 20px;
+  color: white;
+
+  background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+}
 /* Reset */
 * {
   margin: 0;
